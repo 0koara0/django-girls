@@ -1,0 +1,5 @@
+Q. author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
+ForeignKeyとかmodels.CASCADEってどういうこと
+
+A.
+models.ForeignKey – これは他のモデルへのリンク
